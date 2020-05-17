@@ -3,6 +3,29 @@
     <head>
         <title>My Webpage</title>
         <style>
+          #button1 button {
+  background-color: #4CAF50;
+  border: 1px solid green;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  float: left;
+}
+
+#button1 button:not(:last-child) {
+  border-right: none;
+}
+
+#button1:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#button1 button:hover {
+  background-color: #3e8e41;
+}
+
         </style>
     </head>
     <body>
